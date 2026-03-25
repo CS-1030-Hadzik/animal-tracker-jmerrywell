@@ -1,17 +1,23 @@
 from animal import Animal
-
+from dog import Dog
+from Bird import bird
 
 if __name__ == "__main__":
+    #object of the animal class instance of the animal class. intanciation the class
+    animal1 = Animal("Gus", "Mouse")
 
-    dog1 = Animal("Fido", "Canine")
-    dog2 = Animal("Draco", "Canine")
+    dog2 = Dog("Draco", "Canine", "Large")
 
+    animal2 = bird("Tweetie", "Bird", "Blue")
 
-    print(dog1)
-    dog1.speak()
+    print(animal1)
+    animal1.speak()
     
     print(dog2)
     dog2.speak()
+
+    print(animal2)
+    animal2.speak()
 
     # TODO: Create an instance of the Animal class
     # TODO: Print the Animal instance
