@@ -15,7 +15,7 @@ class Animal:
     def speak(self):
         print(f"{self.name} makes a noise\n")
 
-    #magic methods changes how print(object) behaves
+    #magic methods changes how print(object) behaves override
     def __str__(self):
         return (f"Kingdom: {self.kingdom}\n"
                 f"Name: {self.name}\n"

@@ -15,6 +15,11 @@ if __name__ == "__main__":
     
     print(dog2)
     dog2.speak()
+    dog2.preform_trick("dance")
+    print(dog2.name)
+
+    dog2.set_age(-1)
+    dog2.set_age(3)
 
     print(animal2)
     animal2.speak()
